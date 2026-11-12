@@ -5,6 +5,7 @@
 # How would a person/team use this system?
 
 ## End user POV
+
 1. The "leader/admin" of their teams gets a username and login like `Esport` and `Esport123`
 
 2. The next step you will be met up with is things like type your `name, problem, urgency`
@@ -19,23 +20,20 @@
 
 1.  The user sends the forum as a json post to the server we have here, and the admin page fetches it and displays it
 
-
-
-
 # Tech
 
-Front end : React 
+Front end : React
 
-Backend: express js 
-
+Backend: express js
 
 # How the tickets are saved & how the thing works
-    SQLlite. Use the Schools server to store all the data, and the expressJS will fetch it. 
 
-    the tickets are fetched with polling, meaning react will fetch/ask the endpoint for updates every 10sec or 5 sec. 
+    SQLlite. Use the Schools server to store all the data, and the expressJS will fetch it.
+
+    the tickets are fetched with polling, meaning react will fetch/ask the endpoint for updates every 10sec or 5 sec.
+
+# Plan
+
+    Install VM in the server and set it up for the Node.js and git
 
     
-
-
-# Plan; 
-
