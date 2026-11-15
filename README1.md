@@ -41,7 +41,7 @@ Admin Brukere
 
 ## 5. Eksempel på gjennomløp – fra ødelagt til å spille igjen
 
-> **Øyvind** spiller på skole-laptopen sin i en fri-time. Spillet kræsjer hver gang han åpner det.
+> **Øyvind** spiller og Spillet kræsjer hver gang han åpner det.
 
 1. **0 min** – Øyvind sender inn en ticket: _"Spillet kræsjer ved oppstart"_, kategori Programvare, prioritet Medium. Han får ticket **#1077** og en øyeblikkelig bekreftelse på e-post.
 2. **5 min** – Agent Haaland leser den, ser at det har vært lignende tickets før, sjekker kunnskapsbasen og tildeler seg selv ticketen. Status: **Under arbeid**. Øyvind får et varsel gjennom teams eller discord server med en bot
