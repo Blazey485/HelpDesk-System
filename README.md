@@ -61,3 +61,7 @@ En annen ting er å legge til en dashboard som alle kan se, men bare ADMINS kan 
 
 Første design i figma:
 ![Første design i figma:](./Bilder/image.png)
+
+### Demo av produktet
+
+[ Se demo (spilles av når du åpner filen)](./Bilder/ProductDemo.mp4)
