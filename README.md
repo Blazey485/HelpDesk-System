@@ -64,4 +64,6 @@ Første design i figma:
 
 ### Demo av produktet
 
-[ Se demo (spilles av når du åpner filen)](./Bilder/ProductDemo.mp4)
+<video src="https://github.com/user-attachments/assets/7df4a572-5ae0-43ba-889d-162bf82556b4" width="800" height="560"></video>
+
+[Åpne videoen direkte](./Bilder/ProductDemo.mp4)
