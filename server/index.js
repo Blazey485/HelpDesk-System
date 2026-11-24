@@ -1,23 +1,42 @@
 const express = require("express");
 const app = express();
 const PORT = 65507;
+app.use(express.json());
+
 const getTicketsWithFruits = () => {
-	// Nested array of fruit detail objects under each ticket entry:
-	// tickets -> [ [ { ...fruit }, ... ], [ { ...fruit }, ... ] ]
 	return [
-		[
-			{ id: "f1", name: "Mango", quantity: 2, price: 3.5 },
-			{ id: "f2", name: "Banana", quantity: 6, price: 1.2 }
-		],
-		[
-			{
+		{
+			Ticket_ID: "1",
+			Sent_By: "Blazey",
+			forum: {
+				Topic: "Mango",
+				Emergancy: "medium",
+				Desc: "GREIA IKKE FUNKA KA BOOM",
+				Bilde: "img.png"
+			}
+		},
+
+		{
+			Ticket_ID: "1",
+			Sent_By: "Blazey",
+			forum: {
+				Topic: "Mango",
+				Emergancy: "medium",
+				Desc: "GREIA IKKE FUNKA KA BOOM",
+				Bilde: "img.png"
+			}
+		},
+
+		{
+			Ticket_ID: "2",
+			Sent_By: "jason",
+			forum: {
 				id: "f3",
 				name: "Strawberry",
 				quantity: 1,
 				price: 4.0
-			},
-			{ id: "f4", name: "Apple", quantity: 4, price: 2.4 }
-		]
+			}
+		}
 	];
 };
 
@@ -35,6 +54,6 @@ app.get("/api", async (req, res) => {
 
 app.listen(PORT, () => {
 	console.log(
-		"Server listening on http://localhost:65507/"
+		`Server listening on http://localhost:${PORT}`
 	);
 });
