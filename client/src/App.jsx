@@ -1,11 +1,21 @@
 import { useState } from "react";
 
-function App() {
+const App = () => {
 	const [count, setCount] = useState(0);
 
+	
+
+	
 	return (
+		
 		<div>
-			<h1></h1>
+			<div className="tittel"><p className="archivo">Trenger du hjelp?</p></div>
+
+			<div className="logIn">
+				<input className="brukerBoks archivo" type="text" placeholder="Brukernavn"/>
+				<input className="passordBoks archivo" type="password" placeholder="Passord"></input>
+			</div>
+
 		</div>
 	);
 }
