@@ -7,6 +7,7 @@ const getTicketsWithFruits = () => {
 	return [
 		{
 			Ticket_ID: "1",
+			Created: "09:20",
 			Sent_By: "Blazey",
 			forum: {
 				Topic: "Mango",
@@ -17,7 +18,7 @@ const getTicketsWithFruits = () => {
 		},
 
 		{
-			Ticket_ID: "1",
+			Ticket_ID: "2",
 			Created: "09:20",
 
 			Sent_By: "Blazey",
@@ -30,7 +31,7 @@ const getTicketsWithFruits = () => {
 		},
 
 		{
-			Ticket_ID: "2",
+			Ticket_ID: "3",
 			Created: "19:20",
 			Sent_By: "jason",
 			forum: {
