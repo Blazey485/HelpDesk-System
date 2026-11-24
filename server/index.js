@@ -18,9 +18,11 @@ const getTicketsWithFruits = () => {
 
 		{
 			Ticket_ID: "1",
+			Created: "09:20",
+
 			Sent_By: "Blazey",
 			forum: {
-				Topic: "Mango",
+				Topic: "Wifi",
 				Emergancy: "medium",
 				Desc: "GREIA IKKE FUNKA KA BOOM",
 				Bilde: "img.png"
@@ -29,12 +31,13 @@ const getTicketsWithFruits = () => {
 
 		{
 			Ticket_ID: "2",
+			Created: "19:20",
 			Sent_By: "jason",
 			forum: {
-				id: "f3",
-				name: "Strawberry",
-				quantity: 1,
-				price: 4.0
+				Topic: "Display",
+				Emergancy: "medium",
+				Desc: "GREIA IKKE FUNKA KA BOOM",
+				Bilde: "img.png"
 			}
 		}
 	];
