@@ -58,3 +58,12 @@ Admin Brukere
 Så mitt visjon er sånn at du kan legge noater på de "finished" tickets som de andre kan lese å fikse problmet selv, nesten som å sjekke før de sender en ticket.
 
 En annen ting er å legge til en dashboard som alle kan se, men bare ADMINS kan redigere
+
+Første design i figma:
+![Første design i figma:](./Bilder/image.png)
+
+### Demo av produktet
+
+<video src="https://github.com/user-attachments/assets/7df4a572-5ae0-43ba-889d-162bf82556b4" width="800" height="560"></video>
+
+[Åpne videoen direkte](./Bilder/ProductDemo.mp4)
