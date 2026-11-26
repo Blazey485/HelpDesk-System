@@ -22,7 +22,7 @@ const AdminPanel = () => {
 
 			console.log(json.tickets);
 
-			setApiData(json);
+			setApiData(json.tickets);
 		} catch (err) {
 			console.log(
 				"myslkket for å skaffe dataene, error kode",
@@ -32,7 +32,27 @@ const AdminPanel = () => {
 	};
 	return (
 		<div className="bg-black">
-			<h1 className="bg-amber-900">Try trst</h1>
+			<h1 className="bg-amber-900">ADMIN PANEL</h1>
+
+			<div>
+				{apiData.map((data) => (
+					<div key={data.ticketId}>
+						<h2 className="bg-amber-200">{data.created}</h2>
+
+						<div>
+							<h2 className="bg-amber-200">
+								{data.sentBy}
+							</h2>
+						</div>
+
+						<div>
+							<h2 className="bg-amber-200">
+								{data.forum?.topic}
+							</h2>
+						</div>
+					</div>
+				))}
+			</div>
 		</div>
 	);
 };

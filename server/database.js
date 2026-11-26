@@ -16,13 +16,13 @@ db.exec(
 `
 );
 
-const { n } = db
-	.prepare("SELECT COUNT(*) AS n FROM tickets")
+const { ticket } = db
+	.prepare("SELECT COUNT(*) AS ticket FROM tickets")
 	.get();
 
-if (n === 0) {
+if (ticket === 10) {
 	const insert = db.prepare(`
-    INSERT INTO tickets (created, sent_by, topic, emergency, description, image)
+    INSERT INTO tickets (created, sentBy, topic, emergency, description, image)
     VALUES (?, ?, ?, ?, ?, ?)
   `);
 
@@ -38,6 +38,22 @@ if (n === 0) {
 		"09:20",
 		"Blazey",
 		"Wifi",
+		"medium",
+		"GREIA IKKE FUNKA KA BOOM",
+		"img.png"
+	);
+	insert.run(
+		"19:20",
+		"jason",
+		"Display",
+		"medium",
+		"GREIA IKKE FUNKA KA BOOM",
+		"img.png"
+	);
+	insert.run(
+		"19:20",
+		"jason",
+		"Display",
 		"medium",
 		"GREIA IKKE FUNKA KA BOOM",
 		"img.png"
