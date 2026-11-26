@@ -37,19 +37,28 @@ const AdminPanel = () => {
 			<div>
 				{apiData.map((data) => (
 					<div key={data.ticketId}>
-						<h2 className="bg-amber-200">{data.created}</h2>
-
-						<div>
-							<h2 className="bg-amber-200">
-								{data.sentBy}
-							</h2>
-						</div>
-
-						<div>
-							<h2 className="bg-amber-200">
-								{data.forum?.topic}
-							</h2>
-						</div>
+						<main className="flex bg-purple-50 font-bold text-xl gap-2 flex-col">
+							<div className=" border-2 w-2xl">
+								<h2 className="bg-amber-200">
+									{data.forum?.emergancy}
+								</h2>
+								<h2 className="bg-amber-200">
+									{data.sentBy}
+								</h2>
+								<h2 className="bg-amber-200">
+									{data.created}
+								</h2>
+								<h2 className="bg-amber-200">
+									{data.forum?.topic}
+								</h2>
+								<h2 className="bg-amber-200">
+									{data.forum?.desc}
+								</h2>
+								<h2 className="bg-amber-200">
+									{data.forum?.bilde}
+								</h2>
+							</div>
+						</main>
 					</div>
 				))}
 			</div>
